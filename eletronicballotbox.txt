@@ -1,0 +1,10 @@
+your_vote = int(input("Type the candidate's number: "))
+
+if your_vote == 22:
+ print("You voted for candidate1")
+elif your_vote == 13: 
+  print("You voted for candidate2")
+elif your_vote == 12:
+  print("You voted for candidate3")
+else:
+  print("You voted void")
